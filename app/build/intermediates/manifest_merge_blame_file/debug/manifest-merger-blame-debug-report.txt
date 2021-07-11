@@ -1,0 +1,129 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.blueeye"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->E:\Android-Projects\BlueEye\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->E:\Android-Projects\BlueEye\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\Android-Projects\BlueEye\app\src\main\AndroidManifest.xml:5:5-66
+11-->E:\Android-Projects\BlueEye\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+12-->E:\Android-Projects\BlueEye\app\src\main\AndroidManifest.xml:6:5-84
+12-->E:\Android-Projects\BlueEye\app\src\main\AndroidManifest.xml:6:22-82
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->E:\Android-Projects\BlueEye\app\src\main\AndroidManifest.xml:7:5-80
+13-->E:\Android-Projects\BlueEye\app\src\main\AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->E:\Android-Projects\BlueEye\app\src\main\AndroidManifest.xml:8:5-78
+14-->E:\Android-Projects\BlueEye\app\src\main\AndroidManifest.xml:8:22-76
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->E:\Android-Projects\BlueEye\app\src\main\AndroidManifest.xml:9:5-78
+15-->E:\Android-Projects\BlueEye\app\src\main\AndroidManifest.xml:9:22-76
+16
+17    <application
+17-->E:\Android-Projects\BlueEye\app\src\main\AndroidManifest.xml:11:5-32:19
+18        android:name="com.example.blueeye.BaseApplication"
+18-->E:\Android-Projects\BlueEye\app\src\main\AndroidManifest.xml:12:9-40
+19        android:allowBackup="true"
+19-->E:\Android-Projects\BlueEye\app\src\main\AndroidManifest.xml:13:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.5.0] C:\Users\ehsan\.gradle\caches\transforms-2\files-2.1\db572ba28651a31e6f6e72450720090e\core-1.5.0\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:fullBackupContent="@xml/backup_descriptor"
+22-->E:\Android-Projects\BlueEye\app\src\main\AndroidManifest.xml:19:9-59
+23        android:icon="@mipmap/ic_launcher"
+23-->E:\Android-Projects\BlueEye\app\src\main\AndroidManifest.xml:14:9-43
+24        android:label="@string/app_name"
+24-->E:\Android-Projects\BlueEye\app\src\main\AndroidManifest.xml:15:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->E:\Android-Projects\BlueEye\app\src\main\AndroidManifest.xml:16:9-54
+26        android:supportsRtl="true"
+26-->E:\Android-Projects\BlueEye\app\src\main\AndroidManifest.xml:17:9-35
+27        android:testOnly="true"
+28        android:theme="@style/Theme.BlueEye" >
+28-->E:\Android-Projects\BlueEye\app\src\main\AndroidManifest.xml:18:9-45
+29        <activity
+29-->E:\Android-Projects\BlueEye\app\src\main\AndroidManifest.xml:20:9-28:20
+30            android:name="com.example.blueeye.ui.main.MainActivity"
+30-->E:\Android-Projects\BlueEye\app\src\main\AndroidManifest.xml:21:13-49
+31            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar.Bridge" >
+31-->E:\Android-Projects\BlueEye\app\src\main\AndroidManifest.xml:22:13-85
+32            <intent-filter>
+32-->E:\Android-Projects\BlueEye\app\src\main\AndroidManifest.xml:23:13-27:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->E:\Android-Projects\BlueEye\app\src\main\AndroidManifest.xml:24:17-69
+33-->E:\Android-Projects\BlueEye\app\src\main\AndroidManifest.xml:24:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->E:\Android-Projects\BlueEye\app\src\main\AndroidManifest.xml:26:17-77
+35-->E:\Android-Projects\BlueEye\app\src\main\AndroidManifest.xml:26:27-74
+36            </intent-filter>
+37        </activity>
+38
+39        <meta-data
+39-->E:\Android-Projects\BlueEye\app\src\main\AndroidManifest.xml:29:9-31:57
+40            android:name="preloaded_fonts"
+40-->E:\Android-Projects\BlueEye\app\src\main\AndroidManifest.xml:30:13-43
+41            android:resource="@array/preloaded_fonts" />
+41-->E:\Android-Projects\BlueEye\app\src\main\AndroidManifest.xml:31:13-54
+42
+43        <activity
+43-->[com.github.BirjuVachhani:locus-android:3.2.0] C:\Users\ehsan\.gradle\caches\transforms-2\files-2.1\616387dfbad824efdfe88a2376f3cf6f\jetified-locus-android-3.2.0\AndroidManifest.xml:16:9-19:49
+44            android:name="com.birjuvachhani.locus.LocusActivity"
+44-->[com.github.BirjuVachhani:locus-android:3.2.0] C:\Users\ehsan\.gradle\caches\transforms-2\files-2.1\616387dfbad824efdfe88a2376f3cf6f\jetified-locus-android-3.2.0\AndroidManifest.xml:17:13-65
+45            android:launchMode="singleTask"
+45-->[com.github.BirjuVachhani:locus-android:3.2.0] C:\Users\ehsan\.gradle\caches\transforms-2\files-2.1\616387dfbad824efdfe88a2376f3cf6f\jetified-locus-android-3.2.0\AndroidManifest.xml:18:13-44
+46            android:theme="@style/LocusTheme" />
+46-->[com.github.BirjuVachhani:locus-android:3.2.0] C:\Users\ehsan\.gradle\caches\transforms-2\files-2.1\616387dfbad824efdfe88a2376f3cf6f\jetified-locus-android-3.2.0\AndroidManifest.xml:19:13-46
+47
+48        <receiver
+48-->[com.github.BirjuVachhani:locus-android:3.2.0] C:\Users\ehsan\.gradle\caches\transforms-2\files-2.1\616387dfbad824efdfe88a2376f3cf6f\jetified-locus-android-3.2.0\AndroidManifest.xml:21:9-28:20
+49            android:name="com.birjuvachhani.locus.LocationBroadcastReceiver"
+49-->[com.github.BirjuVachhani:locus-android:3.2.0] C:\Users\ehsan\.gradle\caches\transforms-2\files-2.1\616387dfbad824efdfe88a2376f3cf6f\jetified-locus-android-3.2.0\AndroidManifest.xml:22:13-77
+50            android:enabled="true"
+50-->[com.github.BirjuVachhani:locus-android:3.2.0] C:\Users\ehsan\.gradle\caches\transforms-2\files-2.1\616387dfbad824efdfe88a2376f3cf6f\jetified-locus-android-3.2.0\AndroidManifest.xml:23:13-35
+51            android:exported="false" >
+51-->[com.github.BirjuVachhani:locus-android:3.2.0] C:\Users\ehsan\.gradle\caches\transforms-2\files-2.1\616387dfbad824efdfe88a2376f3cf6f\jetified-locus-android-3.2.0\AndroidManifest.xml:24:13-37
+52            <intent-filter>
+52-->[com.github.BirjuVachhani:locus-android:3.2.0] C:\Users\ehsan\.gradle\caches\transforms-2\files-2.1\616387dfbad824efdfe88a2376f3cf6f\jetified-locus-android-3.2.0\AndroidManifest.xml:25:13-27:29
+53                <action android:name="com.birjuvachhani.locus.LocationProvider.LocationBroadcastReceiver.action.PROCESS_UPDATES" />
+53-->[com.github.BirjuVachhani:locus-android:3.2.0] C:\Users\ehsan\.gradle\caches\transforms-2\files-2.1\616387dfbad824efdfe88a2376f3cf6f\jetified-locus-android-3.2.0\AndroidManifest.xml:26:17-132
+53-->[com.github.BirjuVachhani:locus-android:3.2.0] C:\Users\ehsan\.gradle\caches\transforms-2\files-2.1\616387dfbad824efdfe88a2376f3cf6f\jetified-locus-android-3.2.0\AndroidManifest.xml:26:25-129
+54            </intent-filter>
+55        </receiver>
+56
+57        <activity
+57-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\ehsan\.gradle\caches\transforms-2\files-2.1\b125fea3c474796f7aede3d3f694e0af\jetified-play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
+58            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+58-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\ehsan\.gradle\caches\transforms-2\files-2.1\b125fea3c474796f7aede3d3f694e0af\jetified-play-services-base-17.5.0\AndroidManifest.xml:24:13-79
+59            android:exported="false"
+59-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\ehsan\.gradle\caches\transforms-2\files-2.1\b125fea3c474796f7aede3d3f694e0af\jetified-play-services-base-17.5.0\AndroidManifest.xml:25:13-37
+60            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+60-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\ehsan\.gradle\caches\transforms-2\files-2.1\b125fea3c474796f7aede3d3f694e0af\jetified-play-services-base-17.5.0\AndroidManifest.xml:26:13-72
+61
+62        <meta-data
+62-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\ehsan\.gradle\caches\transforms-2\files-2.1\0597f090724252e7688e0a9751fa6441\jetified-play-services-basement-17.5.0\AndroidManifest.xml:23:9-25:69
+63            android:name="com.google.android.gms.version"
+63-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\ehsan\.gradle\caches\transforms-2\files-2.1\0597f090724252e7688e0a9751fa6441\jetified-play-services-basement-17.5.0\AndroidManifest.xml:24:13-58
+64            android:value="@integer/google_play_services_version" />
+64-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\ehsan\.gradle\caches\transforms-2\files-2.1\0597f090724252e7688e0a9751fa6441\jetified-play-services-basement-17.5.0\AndroidManifest.xml:25:13-66
+65
+66        <provider
+66-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\ehsan\.gradle\caches\transforms-2\files-2.1\e8d9dae21069d7141a647b073f1a536a\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+67            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+67-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\ehsan\.gradle\caches\transforms-2\files-2.1\e8d9dae21069d7141a647b073f1a536a\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+68            android:authorities="com.example.blueeye.lifecycle-process"
+68-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\ehsan\.gradle\caches\transforms-2\files-2.1\e8d9dae21069d7141a647b073f1a536a\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+69            android:exported="false"
+69-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\ehsan\.gradle\caches\transforms-2\files-2.1\e8d9dae21069d7141a647b073f1a536a\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+70            android:multiprocess="true" />
+70-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\ehsan\.gradle\caches\transforms-2\files-2.1\e8d9dae21069d7141a647b073f1a536a\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+71    </application>
+72
+73</manifest>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.blueeye.ui.main.fragment.MainFragment"
+        android:label="MainFragment" >
+        <action
+            android:id="@+id/action_mainFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_bottomSheetFragmentMain"
+            app:destination="@id/bottomSheetFragmentMain" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.blueeye.ui.main.fragment.SearchFragment"
+        android:label="SearchFragment" >
+        <action
+            android:id="@+id/action_searchFragment_to_aboutMeFragment"
+            app:destination="@id/aboutMeFragment" />
+        <action
+            android:id="@+id/action_searchFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutMeFragment"
+        android:name="com.example.blueeye.ui.main.fragment.AboutMeFragment"
+        android:label="AboutMeFragment" >
+        <action
+            android:id="@+id/action_aboutMeFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/bottomSheetFragmentMain"
+        android:name="com.example.blueeye.ui.main.fragment.bottomsheets.BottomSheetFragmentMain"
+        android:label="BottomSheetFragmentMain" />
+</navigation>
